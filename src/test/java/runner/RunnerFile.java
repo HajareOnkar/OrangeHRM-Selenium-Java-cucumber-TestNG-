@@ -5,7 +5,10 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		features = "FeatureFile",
-		glue = "stepDefination"
+		glue = "stepDefination",
+		tags="@passwordReset"
+		
+		
 		)
 
 public class RunnerFile extends BaseClass{

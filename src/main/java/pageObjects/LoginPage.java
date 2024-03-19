@@ -19,6 +19,8 @@ public class LoginPage  {
 	private WebElement usernameError;
 	@FindBy(xpath="(//span[contains(@class,'oxd-text oxd')])[2]")
 	private WebElement passwordError;
+	@FindBy(xpath="//div[@class='orangehrm-login-forgot']")
+	private WebElement ForgotPasswordLink;
 	
 	public LoginPage(WebDriver driver) {
 		this.driver=driver;
@@ -47,6 +49,9 @@ public class LoginPage  {
 	}
 	public String passwordErrortext() {
 		return passwordError.getText();
+	}
+	public void Click_On_ForgotPasswordLink() {
+		ForgotPasswordLink.click();
 	}
 	
 	

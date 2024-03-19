@@ -6,7 +6,7 @@
       <class name="runner.RunnerFile">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="4"/>
+          <include name="runScenario" invocation-numbers="0 1 2"/>
           <include name="tearDownClass"/>
           <include name="openApp"/>
           <include name="closeApp"/>
