@@ -1,5 +1,4 @@
 @LoginFunction @smoke @regression
-
 Feature: Login finctionality
 @validCred
 Scenario: User Login with valid credentials
